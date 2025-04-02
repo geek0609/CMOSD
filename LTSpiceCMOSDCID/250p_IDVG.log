@@ -1,0 +1,28 @@
+Questionable use of curly braces in "simulator lang={spectre} insensitive={yes}"
+    Error: undefined symbol in: "[spectre]"
+Questionable use of curly braces in "simulator lang=(spectre) insensitive={yes}"
+    Error: undefined symbol in: "[yes]"
+Questionable use of curly braces in "// model name {cmosn}"
+    Error: undefined symbol in: "[cmosn]"
+Questionable use of curly braces in "// model name {cmosp}"
+    Error: undefined symbol in: "[cmosp]"
+LTspice 24.0.12 for Windows
+Circuit: * D:\LTSpiceCMOSDCID\250p_IDVG.asc
+Start Time: Wed Jan  1 14:51:11 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+Instance "m1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m1": Width narrower than recommended for a level 1 MOSFET.
+vg: Missing value, assumed 0V @ DC
+vd: Missing value, assumed 0V @ DC
+.step vd=-0.05
+.step vd=-0.55
+.step vd=-1.05
+.step vd=-1.55
+.step vd=-2.05
+.step vd=-2.5
+Total elapsed time: 0.221 seconds.
+

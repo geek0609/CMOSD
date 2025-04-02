@@ -1,0 +1,70 @@
+Questionable use of curly braces in "simulator lang={spectre} insensitive={yes}"
+    Error: undefined symbol in: "[spectre]"
+Questionable use of curly braces in "simulator lang=(spectre) insensitive={yes}"
+    Error: undefined symbol in: "[yes]"
+Questionable use of curly braces in "// model name {cmosn}"
+    Error: undefined symbol in: "[cmosn]"
+Questionable use of curly braces in "// model name {cmosp}"
+    Error: undefined symbol in: "[cmosp]"
+Questionable use of curly braces in ".meas t_pd_avg param={(t_rise+t_fall)/2}"
+    Error: undefined symbol in: "([t_rise]+t_fall)/2"
+LTspice 24.0.12 for Windows
+Circuit: * D:\LTSpiceCMOSDCID\logics\cmos.asc
+Start Time: Wed Feb 26 16:26:38 2025
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter CTP
+Ignoring BSIM parameter PTP
+Ignoring BSIM parameter CTA
+Ignoring BSIM parameter PTA
+Ignoring BSIM parameter TLEVC
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter CTA
+Ignoring BSIM parameter CTP
+Ignoring BSIM parameter PTA
+Ignoring BSIM parameter PTP
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Error on line 82 : .model cmosp pmos ( level=49  mobmod=1 version=3.1 capmod=2  binunit=1.0000e+00 nqsmod=0.0000e+00  tox=5.6e-9 toxm=4.2000e-09  xj=1e-7 nch=4.1589e17 ngate=1.0000e+23  vth0= -0.5129563 k1=0.6134729  k2=-2.899398e-3 k3=0.0986814 k3b=9.0540104  w0=1e-6 nlx=1e-9 dvt0=2.0012281  dvt1=0.8322765 dvt2=-0.2148411 dvt0w=0  dvt1w=0 dvt2w=0 lint=2.87185e-8  wint=0 dwg=-2.939346e-8 dwb=6.28262e-10  u0=105.850112 ua=1.149276e-9  ub=1.771755e-21 uc=-1e-10 vsat=1.605184e5  a0=0.9295806 ags=0.17071 b0=1.118672e-6  b1=5e-6 keta=0.010786 a1=0.0258091  a2=0.3 voff=-0.1368868 nfactor=1.0881345  cit=0 cdsc=2.4e-4 cdscd=0  cdscb=0 eta0=0.5919789 etab=-0.1522258  dsub=1.2865437 pclm=1.2888687 pdiblc1=5.658541e-3  pdiblc2=3.303251e-11 pdiblcb=-1e-3 drout=0.0594889  pscbe1=7.527625e10 pscbe2=1.740511e-8 pvag=3.357622e-3  rdsw=1.392936e3 prwg=6.801752e-4 prwb=-0.1810639  alpha0=0.0000e+00 alpha1=0.0000e+00 beta0=3.0000e+01  cgdo=5.71e-10 cgbo=1e-12  cgso=5.71e-10 xpart=0.5  cf=0 dlc=5.6000e-08 cgsl=0.0000e+00  cgdl=0.0000e+00 ckappa=6.0000e-01 clc=1.0000e-07  cle=6.0000e-01 dwc=0.0000e+00 vfbcv=-1.0000e+00  noff=1.0000e+00 voffcv=0.0000e+00 acde=1.0000e+00  moin=1.5000e+01 lmin=1.8000e-07 lmax=5.0000e-05  wmin=2.4000e-07 wmax=1.0000e-04  xl= 0  xw=-4e-8 js=3.0000e-06  jsw=4.1200e-11 cj=1.893734e-3  mj=0.4705132 pb=0.9889579  cjsw=3.124347e-10 mjsw=0.2786992  tnom=27 ute=-1.5 kt1=-0.11  kt1l=0 kt2=0.022 ua1=4.31e-9  ub1=-7.61e-18 uc1=-5.6e-11 at=3.3e4  prt=0 xti=3.0000e+00 ww=0  lw=0 ll=0 wl=0  wln=1 wwn=1 wwl=0  lln=1 lwn=1 lwl=0  llc=-7.4500e-15 lwc=0.0000e+00 lwlc=0.0000e+00  wlc=0.0000e+00 wwc=0.0000e+00 wwlc=0.0000e+00  lvth0=4.4000e-03  wvth0= - 1.4800e-02  pvth0=2.90746e-3 lnlx=-1.5840e-08  wrdsw=1.0070e+01 weta0=0.0000e+00 wetab=0.0000e+00  wpclm=0.0000e+00 wua=2.6300e-09 lua=-8.1530e-11  pua=5.8550e-11 wub=0.0000e+00 lub=0.0000e+00  pub=0.0000e+00 wuc=0.0000e+00 luc=0.0000e+00  puc=0.0000e+00 wvoff=-9.8160e-03 lvoff=-9.8710e-04  pvoff=-9.8330e-05 wa0=-4.8070e-02 la0=-2.8100e-01  pa0=8.6610e-02 wags=-4.1770e-02 lags=4.4540e-02  pags=-4.0760e-02 wketa=0.0228473 lketa=-7.555134e-3  pketa=0.0000e+00 wute=-2.6820e-01 lute=0.0000e+00  pute=0.0000e+00 wvsat=-1.4200e+04 lvsat=0.0000e+00  pvsat= - 4.3400e+02 lpdiblc2=3.0120e-03  cjswg=2.5e-10 wat=-6.4050e+03  wprt=2.1660e+02 n=1.0000e+00 pbsw=0.8  cta=1.0000e-03 ctp=7.5300e-04 pta=1.5500e-03  ptp=1.2400e-03 ldif=8.0000e-08 rsh=2.9  rd=0.0000e+00 rsc=0.0000e+00 rdc=0.0000e+00  hdif=2.6000e-07 rs=0.0000e+00  noimod=2.0e+00 noia=3.57456993317604e+18 noib=2500  noic=2.61260020285845e-11 ef=1.1388 em=41000000 )
+	* Unrecognized parameter "rsc" -- ignored
+Error on line 82 : .model cmosp pmos ( level=49  mobmod=1 version=3.1 capmod=2  binunit=1.0000e+00 nqsmod=0.0000e+00  tox=5.6e-9 toxm=4.2000e-09  xj=1e-7 nch=4.1589e17 ngate=1.0000e+23  vth0= -0.5129563 k1=0.6134729  k2=-2.899398e-3 k3=0.0986814 k3b=9.0540104  w0=1e-6 nlx=1e-9 dvt0=2.0012281  dvt1=0.8322765 dvt2=-0.2148411 dvt0w=0  dvt1w=0 dvt2w=0 lint=2.87185e-8  wint=0 dwg=-2.939346e-8 dwb=6.28262e-10  u0=105.850112 ua=1.149276e-9  ub=1.771755e-21 uc=-1e-10 vsat=1.605184e5  a0=0.9295806 ags=0.17071 b0=1.118672e-6  b1=5e-6 keta=0.010786 a1=0.0258091  a2=0.3 voff=-0.1368868 nfactor=1.0881345  cit=0 cdsc=2.4e-4 cdscd=0  cdscb=0 eta0=0.5919789 etab=-0.1522258  dsub=1.2865437 pclm=1.2888687 pdiblc1=5.658541e-3  pdiblc2=3.303251e-11 pdiblcb=-1e-3 drout=0.0594889  pscbe1=7.527625e10 pscbe2=1.740511e-8 pvag=3.357622e-3  rdsw=1.392936e3 prwg=6.801752e-4 prwb=-0.1810639  alpha0=0.0000e+00 alpha1=0.0000e+00 beta0=3.0000e+01  cgdo=5.71e-10 cgbo=1e-12  cgso=5.71e-10 xpart=0.5  cf=0 dlc=5.6000e-08 cgsl=0.0000e+00  cgdl=0.0000e+00 ckappa=6.0000e-01 clc=1.0000e-07  cle=6.0000e-01 dwc=0.0000e+00 vfbcv=-1.0000e+00  noff=1.0000e+00 voffcv=0.0000e+00 acde=1.0000e+00  moin=1.5000e+01 lmin=1.8000e-07 lmax=5.0000e-05  wmin=2.4000e-07 wmax=1.0000e-04  xl= 0  xw=-4e-8 js=3.0000e-06  jsw=4.1200e-11 cj=1.893734e-3  mj=0.4705132 pb=0.9889579  cjsw=3.124347e-10 mjsw=0.2786992  tnom=27 ute=-1.5 kt1=-0.11  kt1l=0 kt2=0.022 ua1=4.31e-9  ub1=-7.61e-18 uc1=-5.6e-11 at=3.3e4  prt=0 xti=3.0000e+00 ww=0  lw=0 ll=0 wl=0  wln=1 wwn=1 wwl=0  lln=1 lwn=1 lwl=0  llc=-7.4500e-15 lwc=0.0000e+00 lwlc=0.0000e+00  wlc=0.0000e+00 wwc=0.0000e+00 wwlc=0.0000e+00  lvth0=4.4000e-03  wvth0= - 1.4800e-02  pvth0=2.90746e-3 lnlx=-1.5840e-08  wrdsw=1.0070e+01 weta0=0.0000e+00 wetab=0.0000e+00  wpclm=0.0000e+00 wua=2.6300e-09 lua=-8.1530e-11  pua=5.8550e-11 wub=0.0000e+00 lub=0.0000e+00  pub=0.0000e+00 wuc=0.0000e+00 luc=0.0000e+00  puc=0.0000e+00 wvoff=-9.8160e-03 lvoff=-9.8710e-04  pvoff=-9.8330e-05 wa0=-4.8070e-02 la0=-2.8100e-01  pa0=8.6610e-02 wags=-4.1770e-02 lags=4.4540e-02  pags=-4.0760e-02 wketa=0.0228473 lketa=-7.555134e-3  pketa=0.0000e+00 wute=-2.6820e-01 lute=0.0000e+00  pute=0.0000e+00 wvsat=-1.4200e+04 lvsat=0.0000e+00  pvsat= - 4.3400e+02 lpdiblc2=3.0120e-03  cjswg=2.5e-10 wat=-6.4050e+03  wprt=2.1660e+02 n=1.0000e+00 pbsw=0.8  cta=1.0000e-03 ctp=7.5300e-04 pta=1.5500e-03  ptp=1.2400e-03 ldif=8.0000e-08 rsh=2.9  rd=0.0000e+00 rsc=0.0000e+00 rdc=0.0000e+00  hdif=2.6000e-07 rs=0.0000e+00  noimod=2.0e+00 noia=3.57456993317604e+18 noib=2500  noic=2.61260020285845e-11 ef=1.1388 em=41000000 )
+	* Unrecognized parameter "rdc" -- ignored
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node N002 is floating.
+WARNING: Node N003 is floating.
+WARNING: Node N006 is floating.
+
+WARNING: Less than two connections to node n002.  This node is used by m2.
+WARNING: Less than two connections to node n003.  This node is used by m4.
+WARNING: Less than two connections to node n006.  This node is used by m5.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.1000e+00
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 2e-08 ++to 2e-08
+
+
+Measurement "vol" FAIL'ed
+
+Measurement "vih" FAIL'ed
+
+Measurement "voh" FAIL'ed
+
+Measurement "vil" FAIL'ed
+
+Measurement "nml" FAIL'ed
+imax: MAX(id(m2))=0.000123812 FROM 0 TO 4.1e-08
+
+Measurement "t_rise" FAIL'ed
+
+Measurement "t_fall" FAIL'ed
+
+Measurement "t_pd_avg" FAIL'ed
+
+Total elapsed time: 1.553 seconds.
+

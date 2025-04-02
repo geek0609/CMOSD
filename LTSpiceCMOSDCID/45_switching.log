@@ -1,0 +1,26 @@
+LTspice 24.0.12 for Windows
+Circuit: * D:\LTSpiceCMOSDCID\45_switching.asc
+Start Time: Wed Jan  8 16:01:47 2025
+Error on line 2 : v1 n003 0 v
+	 Unknown parameter "v"
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node N002 is floating.
+
+WARNING: Less than two connections to node n002.  This node is used by m2.
+v1: Missing value, assumed 0V @ DC
+
+vil: v1=0.367063 at 0.367063
+voh: v(vout)=0.94712 at 0.367063
+vol: v(vout)=0.0566549 at 0.588946
+vih: v1=0.588946 at 0.588946
+nmh: voh-vih=0.358174
+nml: vol-vil=-0.310408
+imax: MAX(id(m2))=1.18648e-05 FROM 0 TO 1
+gainmax: MAX(v(vout)/v(n003))=9.9989 FROM 0.1 TO 0.3
+
+Total elapsed time: 0.076 seconds.
+

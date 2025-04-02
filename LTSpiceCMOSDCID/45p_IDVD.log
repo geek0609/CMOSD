@@ -1,0 +1,16 @@
+LTspice 24.0.12 for Windows
+Circuit: * D:\LTSpiceCMOSDCID\45p_IDVD.asc
+Start Time: Wed Jan  1 14:49:33 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+.step vd=-1
+.step vd=-0.8
+.step vd=-0.6
+.step vd=-0.4
+.step vd=-0.2
+.step vd=0
+Total elapsed time: 0.244 seconds.
+

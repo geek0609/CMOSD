@@ -1,0 +1,40 @@
+Questionable use of curly braces in "simulator lang={spectre} insensitive={yes}"
+    Error: undefined symbol in: "[spectre]"
+Questionable use of curly braces in "simulator lang=(spectre) insensitive={yes}"
+    Error: undefined symbol in: "[yes]"
+Questionable use of curly braces in "// model name {cmosn}"
+    Error: undefined symbol in: "[cmosn]"
+Questionable use of curly braces in "// model name {cmosp}"
+    Error: undefined symbol in: "[cmosp]"
+LTspice 24.0.12 for Windows
+Circuit: * D:\LTSpiceCMOSDCID\Draft2.asc
+Start Time: Wed Feb 12 14:35:43 2025
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter CTP
+Ignoring BSIM parameter PTP
+Ignoring BSIM parameter CTA
+Ignoring BSIM parameter PTA
+Ignoring BSIM parameter TLEVC
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node N001 is floating.
+WARNING: Node N004 is floating.
+
+WARNING: Less than two connections to node n001.  This node is used by m1.
+WARNING: Less than two connections to node n004.  This node is used by m2.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.1000e+00
+Direct Newton iteration for .op point succeeded.
+Changing Tseed to 1e-08
+Changing Tseed to 1e-10
+Changing Tseed to 1e-07
+Changing Tseed to 1e-11
+Changing Tseed to 1e-06
+Changing Tseed to 1e-12
+Total elapsed time: 0.085 seconds.
+
